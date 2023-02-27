@@ -1,0 +1,36 @@
+﻿环境：linux     php5.5  mysql5.6   
+
+
+两个域名：
+
+后台：http://xxx.com   指向根目录         
+
+前台：http://xxx1.com   指向ffsm
+
+
+导入数据库
+
+修改\config\inc_config.php
+
+
+后台连接：http://xxx.com/acs    账户：admin    密码：qq753766813
+
+微信支付授权目录：http://xxx.com/    
+
+你的前端域名
+
+全文搜索替换：
+【www.xxx.com】替换成你自己的前台域名
+
+【光闻科技】替换成你自己的公众号
+
+【深度网】替换成你自己的网站名称
+
+
+
+修改二维码路径：www.xxx.com\ffsm\weixin.png   
+
+
+index.php 里面的对应域名修改成自己的后台域名
+
+
